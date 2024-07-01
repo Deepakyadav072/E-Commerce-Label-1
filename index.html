@@ -7,8 +7,23 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
-</head>
-<body>
+
+    <!-- login page -->
+
+    <head>
+        <title>Login Page</title>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <form action="/login" method="post" onsubmit="alert('Your response has been recorded');">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+
     <div class="container">
         <nav>
             <div class="logo">
@@ -224,14 +239,8 @@
             <p>Bank OfferFlat ₹200 off on HDFC Bank Credit/Debit</p>
             <a href="">Back</a> 
             <a id="buyBtn">Buy Now</a>    
-
-
-
         </div>
     </div>
-
-
-
     <div class="buyPage">
         <div class="cross">
             <i class="fa-solid fa-xmark"></i>
